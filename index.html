@@ -5,15 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <meta
+      name="description"
+      content="It is a brand site Explains the history of products and brands."
+    />
+    <meta property="og:title" content="VillNeDouble" />
+    <meta
+      property="og:description"
+      content="This explains the process of establishing the product and brand, and what we are aiming for in the future."
+    />
+    <meta
+      property="og:image"
+      content="https://aminesam1092.github.io/VILLNEDOUBLE/Logo/VilleDoublueLogo.svg"
+    />
+    <meta property="og:image:alt" content="VillNeDoublebrandlogo" />
+    <meta property="og:locale" content="ja_JP" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://aminesam1092.github.io/VILLNEDOUBLE/"
+    />
+    <meta
+      name="twitter:card"
+      content="https://aminesam1092.github.io/VILLNEDOUBLE/Logo/VilleDoublueLogo.svg"
+    />
     <link rel="stylesheet" href="scss/main.min.css" />
   </head>
   <body>
-    <div class="Topimageconteiner">
-      <picture class="Top_image">
-        <source srcset="image/webp/topimage.webp" type="image/webp" />
-        <img src="image/jpg/topimage.jpg" alt="トップページ画像" />
-      </picture>
-    </div>
-    <main class="mainprimary"></main>
+    <div class="Topimageconteiner"></div>
+    <main class="Mainprimary">
+      <div id="viewport">
+        <div id="scroll-container">
+          <header class="Header">
+            <nav class="Header_Nav">
+              <ul class="Header_Ul">
+                <li class="Header_Logo">
+                  <img
+                    class="logo"
+                    src="image/svg/Moroccanlogo.svg"
+                    alt="ロゴ画像"
+                  />
+                </li>
+                <li class="Header_Top">top</li>
+                <li class="Header_Menu">menu</li>
+              </ul>
+            </nav>
+          </header>
+          <section class="crimson"></section>
+          <section class="skyblue"></section>
+        </div>
+      </div>
+    </main>
+    <script src="js/gsap.min.js"></script>
+    <script src="js/ScrollTrigger.min.js"></script>
+    <script src="js/style.js"></script>
   </body>
 </html>
