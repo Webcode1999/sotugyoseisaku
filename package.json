@@ -1,0 +1,23 @@
+{
+  "name": "ls",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Webcode1999/sotugyoseisaku.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Webcode1999/sotugyoseisaku/issues"
+  },
+  "homepage": "https://github.com/Webcode1999/sotugyoseisaku#readme",
+  "dependencies": {
+    "gsap": "^3.11.3",
+    "luxy.js": "^0.1.0"
+  }
+}

@@ -1,3 +1,41 @@
 @use "../scss/base/base" as base;
 @use "../scss/base/rest" as reset;
 @use "../scss/mixin/breakpoint" as break;
+@use "../scss/module/header" as module;
+
+.Topimageconteiner {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../image/webp/topimage.webp);
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.Mainprimary {
+  #viewport {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+  section {
+    width: 100%;
+    height: 100vh;
+  }
+
+  #scroll-container {
+    position: absolute;
+    width: 100%;
+  }
+  .crimson {
+    background-color: crimson;
+  }
+  .skyblue {
+    background-color: skyblue;
+  }
+}
