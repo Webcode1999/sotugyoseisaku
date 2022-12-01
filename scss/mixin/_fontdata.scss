@@ -1,3 +1,7 @@
+@font-face {
+  font-family: Noteworthy;
+  src: url("https://fonts.cdnfonts.com/css/noteworthy");
+}
 $font-size-micro: 12px;
 $font-size-milli: 14px;
 $font-size-base: 16px;
@@ -5,4 +9,6 @@ $font-size-kilo: 18px;
 $font-size-mega: 24px;
 $font-size-giga: 32px;
 
-$jubilat: "jubilat", serif; ;
+$jubilat: "jubilat", serif;
+$banshee-std: "banshee-std", sans-serif;
+$Noteworthy: "Noteworthy", sans-serif;

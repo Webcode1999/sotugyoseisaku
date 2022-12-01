@@ -1,15 +1,33 @@
-//スクロールトリガーコード//
-const container = document.querySelector("#scroll-container");
-const height = container.clientHeight;
-document.body.style.height = `${height}px`;
+const targets = document.querySelectorAll(".Topimageconteiner");
 
-gsap.to(container, {
-  y: -(height - document.documentElement.clientHeight),
-  ease: "none",
+targets.forEach((target) => {
+  gsap.fromTo(
+    target.querySelector("img"),
+    {
+      y: 0,
+    },
+    {
+      y: 250,
+      ease: "none",
+      scrollTrigger: {
+        trigger: target,
+        start: "top top",
+        end: "bottom top",
+        scrub: 1,
+        ease: "bounce",
+      },
+    }
+  );
+});
+
+gsap.to(".Moroccanfoods_headtext", {
   scrollTrigger: {
-    trigger: document.body,
+    trigger: ".Moroccanfoods_headtext",
     start: "top center",
-    end: "bottom bottom",
-    scrub: 3,
+    end: "+=500",
+    scrub: true,
+    pin: true,
+    ease: "bounce",
   },
+  opacity: 1,
 });
