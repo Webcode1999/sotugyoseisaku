@@ -8,7 +8,7 @@ gsap.to(container, {
   ease: "none",
   scrollTrigger: {
     trigger: document.body,
-    start: "top top",
+    start: "top center",
     end: "bottom bottom",
     scrub: 3,
   },

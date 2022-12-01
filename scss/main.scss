@@ -2,6 +2,7 @@
 @use "../scss/base/rest" as reset;
 @use "../scss/mixin/breakpoint" as break;
 @use "../scss/module/header" as module;
+@use "../scss/mixin/fontdata" as f;
 
 .Topimageconteiner {
   width: 100%;
