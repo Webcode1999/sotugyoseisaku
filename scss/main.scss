@@ -10,13 +10,53 @@
   overflow: hidden;
 }
 .Mainprimary {
+  background-color: #fffeef;
   .Moroccanfoods {
     &_headtext {
       font-size: 45px;
-      font-family: f.$Noteworthy;
+      font-family: Georgia, serif;
       text-align: center;
+      color: black;
       margin: 20px 0px 20px 0px;
       opacity: 0;
+    }
+    &_conteiner {
+      margin: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+    }
+    &_taginebox {
+      position: relative;
+    }
+    &_tagine {
+      font-size: 50px;
+      font-family: f.$Dancing;
+      color: white;
+      text-align: center;
+    }
+    &_taginebox {
+      opacity: 0;
+    }
+    &_textconteiner {
+      width: 400px;
+      height: 400px;
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+    }
+    &_button {
+      width: 100%;
+      cursor: pointer;
+      margin-top: 10px;
+      border: 1px solid rgba($color: #ffffff, $alpha: 1);
+      border-radius: 25px;
+      background-color: transparent;
+      color: white;
     }
   }
 }
