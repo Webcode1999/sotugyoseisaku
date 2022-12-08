@@ -6,8 +6,10 @@
 
 .Topimageconteiner {
   width: 100%;
-  height: 800px;
   overflow: hidden;
+}
+.Topimage {
+  width: 100%;
 }
 .Mainprimary {
   background-color: #fffeef;
@@ -27,7 +29,7 @@
       align-items: center;
       gap: 30px;
     }
-    &_taginebox {
+    &_box {
       position: relative;
     }
     &_tagine {
@@ -36,14 +38,17 @@
       color: white;
       text-align: center;
     }
-    &_taginebox {
+    .jsanimation {
+      opacity: 0;
+    }
+    .jsanimationsecond {
       opacity: 0;
     }
     &_textconteiner {
       width: 400px;
       height: 400px;
       position: absolute;
-      top: 45%;
+      top: 42%;
       left: 50%;
       transform: translate(-50%, -50%);
       -webkit-transform: translate(-50%, -50%);
@@ -59,4 +64,37 @@
       color: white;
     }
   }
+  .Moroccanfoods_centrarimage {
+    margin: 50px 0px 50px 0px;
+  }
+  .listbox {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    &_imagebox {
+      position: relative;
+      margin: 15px;
+      overflow: hidden;
+    }
+    &_text {
+      color: rgb(255, 255, 255);
+      font-family: Georgia, serif;
+      font-size: 100px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+    }
+  }
+}
+.box {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
 }
