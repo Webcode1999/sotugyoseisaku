@@ -91,6 +91,49 @@
       -ms-transform: translate(-50%, -50%);
     }
   }
+  .Menubox {
+    border-bottom: 25px solid #5e482c;
+    color: white;
+    &_conteiner {
+      background-image: url(../image/jpg/backgroundimage.jpg);
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
+    &_content {
+      margin-top: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 100px;
+    }
+    &_heddingtext {
+      font-family: Jubilat;
+      text-align: center;
+      font-size: 69px;
+      padding-top: 50px;
+    }
+    &_name {
+      font-family: Georgia, serif;
+      font-size: 50px;
+    }
+    &_namebox {
+      text-align: center;
+    }
+    &_button {
+      width: 250px;
+      height: 25px;
+      cursor: pointer;
+      margin-top: 10px;
+      border: 1px solid rgba($color: #ffffff, $alpha: 1);
+      border-radius: 25px;
+      background-color: transparent;
+      color: white;
+    }
+    .image {
+      width: 500px;
+      height: 500px;
+    }
+  }
 }
 .box {
   width: 100%;
