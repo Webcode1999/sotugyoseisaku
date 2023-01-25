@@ -1,7 +1,11 @@
 @use "../mixin/fontdata" as f;
+@use "../mixin/breakpoint" as break;
 .Header {
   width: 100%;
   box-shadow: 0 5px 10px 0 rgb(0 0 0 / 30%);
+  @include break.breakpoint(tablet) {
+    display: none;
+  }
   &_Nav {
     width: 100%;
     height: 50px;

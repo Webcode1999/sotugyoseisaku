@@ -41,8 +41,21 @@
   <body>
     <div class="Topimageconteiner">
       <picture class="Topimage">
-        <source src="image/webp/topimage.webp" type="image/webp" />
+        <source
+          src="image/webp/topimage.webp"
+          type="image/webp"
+          media="(min-width: 1280px)"
+        />
+        <source
+          src="image/webp/responsive.webp"
+          type="image/webp"
+          media="(min-width: 390px)"
+        />
         <img src="image/jpg/topimage.jpg" alt="" />
+      </picture>
+      <picture class="Topresimage">
+        <source src="image/webp/responsive.webp" />
+        <img src="image/jpg/responsive.jpg" alt="" />
       </picture>
     </div>
     <main class="Mainprimary">
@@ -76,7 +89,7 @@
                 <img src="image/jpg/tagine.jpg" alt="" />
               </picture>
               <button class="Moroccanfoods_button">
-                <a href="./indexthird.html">詳細を見る</a>
+                <a href="./indexfource.html">詳細を見る</a>
               </button>
             </section>
           </section>
@@ -91,7 +104,9 @@
                 <source src="image/webp/couscous.webp" type="image/webp" />
                 <img src="image/jpg/couscous.jpg" alt="" />
               </picture>
-              <button class="Moroccanfoods_button">詳細を見る</button>
+              <button class="Moroccanfoods_button">
+                <a href="./indexthird.html">詳細を見る</a>
+              </button>
             </section>
           </section>
         </section>
@@ -109,7 +124,7 @@
       <section class="listbox">
         <section class="listbox_imagebox">
           <h2 class="listbox_text">beef</h2>
-          <picture class="listbox_image">
+          <picture class="listbox_image hoveran">
             <source src="image/webp/minitaginebeef.webp" type="image/webp" />
             <img
               class="image"
@@ -156,16 +171,16 @@
           <h2 class="Menubox_heddingtext">The beef</h2>
           <section class="Menubox_content">
             <picture>
-              <source src="image/webp/minitaginebeef.webp" type="image/webp" />
+              <source src="image/webp/tagine.webp" type="image/webp" />
               <img
                 class="image"
-                src="image/jpg/minitaginebeef.jpg
+                src="image/jpg/tagine.jpg
             "
                 alt=""
               />
             </picture>
             <section class="Menubox_namebox">
-              <h2 class="Menubox_name">Tagine</h2>
+              <h2 class="Menubox_name">Meat tagine</h2>
               <button class="Menubox_button">
                 <a href="./indexsecond.html">レシピを見る</a>
               </button>
@@ -173,14 +188,104 @@
           </section>
           <section class="Menubox_content">
             <section class="Menubox_namebox">
-              <h2 class="Menubox_name">Tagine</h2>
+              <h2 class="Menubox_name">moroccan beef sausage</h2>
+              <button class="Menubox_button">
+                <a href="./menu.html">レシピを見る</a>
+              </button>
+            </section>
+            <picture>
+              <source src="image/webp/souseizi.webp" type="image/webp" />
+              <img
+                class="image"
+                src="image/jpg/souseizi.jpg
+            "
+                alt=""
+              />
+            </picture>
+          </section>
+          <section class="Menubox_content">
+            <picture>
+              <source src="image/webp/beeftagine.webp" type="image/webp" />
+              <img
+                class="image"
+                src="image/jpg/beeftagine.jpg
+            "
+                alt=""
+              />
+            </picture>
+            <section class="Menubox_namebox">
+              <h2 class="Menubox_name">beef egg Tagine</h2>
+              <button class="Menubox_button">
+                <a href="./menusecond.html">レシピを見る</a>
+              </button>
+            </section>
+          </section>
+          <section class="Menubox_content">
+            <section class="Menubox_namebox">
+              <h2 class="Menubox_name">rufimu</h2>
               <button class="Menubox_button">レシピを見る</button>
             </section>
             <picture>
-              <source src="image/webp/minitaginebeef.webp" type="image/webp" />
+              <source src="image/webp/beefsecondimage.webp" type="image/webp" />
               <img
                 class="image"
-                src="image/jpg/minitaginebeef.jpg
+                src="image/jpg/beefsecondimage.jpg
+            "
+                alt=""
+              />
+            </picture>
+          </section>
+          <section class="Menubox_content">
+            <picture>
+              <source src="image/webp/ushinoasi.webp" type="image/webp" />
+              <img
+                class="image"
+                src="image/jpg/ushinoasi.jpg
+            "
+                alt=""
+              />
+            </picture>
+            <section class="Menubox_namebox">
+              <h2 class="Menubox_name">korwin</h2>
+              <button class="Menubox_button">
+                <a href="./menufours.html">レシピを見る</a>
+              </button>
+            </section>
+          </section>
+        </section>
+      </section>
+      <section class="Menubox">
+        <section class="Menubox_conteiner">
+          <h2 class="Menubox_heddingtext">The chicken</h2>
+          <section class="Menubox_content">
+            <picture>
+              <source src="image/webp/chikinyaki.webp" type="image/webp" />
+              <img
+                class="image"
+                src="image/jpg/chikinyaki.jpg
+            "
+                alt=""
+              />
+            </picture>
+            <section class="Menubox_namebox">
+              <h2 class="Menubox_name">kutban</h2>
+              <button class="Menubox_button">
+                <a href="./menufive.html">レシピを見る</a>
+              </button>
+            </section>
+          </section>
+          <section class="Menubox_content">
+            <section class="Menubox_namebox">
+              <h2 class="Menubox_name">Sharia</h2>
+              <button class="Menubox_button">
+                <a href="./menusix.html">レシピを見る</a>
+              </button>
+            </section>
+            <picture>
+              <source src="image/webp/chikensharia.webp" type="image/webp" />
+              <img
+                class="image"
+                src="image/jpg/chikensharia.jpg
             "
                 alt=""
               />
@@ -190,54 +295,19 @@
       </section>
       <section class="Menubox">
         <section class="Menubox_conteiner">
-          <h2 class="Menubox_heddingtext">The beef</h2>
+          <h2 class="Menubox_heddingtext">The fish</h2>
           <section class="Menubox_content">
             <picture>
-              <source src="image/webp/minitaginebeef.webp" type="image/webp" />
+              <source src="image/webp/fish.webp" type="image/webp" />
               <img
                 class="image"
-                src="image/jpg/minitaginebeef.jpg
+                src="image/jpg/fish.jpg
             "
                 alt=""
               />
             </picture>
             <section class="Menubox_namebox">
-              <h2 class="Menubox_name">Tagine</h2>
-              <button class="Menubox_button">レシピを見る</button>
-            </section>
-          </section>
-          <section class="Menubox_content">
-            <section class="Menubox_namebox">
-              <h2 class="Menubox_name">Tagine</h2>
-              <button class="Menubox_button">レシピを見る</button>
-            </section>
-            <picture>
-              <source src="image/webp/minitaginebeef.webp" type="image/webp" />
-              <img
-                class="image"
-                src="image/jpg/minitaginebeef.jpg
-            "
-                alt=""
-              />
-            </picture>
-          </section>
-        </section>
-      </section>
-      <section class="Menubox">
-        <section class="Menubox_conteiner">
-          <h2 class="Menubox_heddingtext">The beef</h2>
-          <section class="Menubox_content">
-            <picture>
-              <source src="image/webp/minitaginebeef.webp" type="image/webp" />
-              <img
-                class="image"
-                src="image/jpg/minitaginebeef.jpg
-            "
-                alt=""
-              />
-            </picture>
-            <section class="Menubox_namebox">
-              <h2 class="Menubox_name">Tagine</h2>
+              <h2 class="Menubox_name">All fish fly</h2>
               <button class="Menubox_button">レシピを見る</button>
             </section>
           </section>
@@ -294,6 +364,7 @@
         </section>
       </section>
     </main>
+    <footer class="footer"></footer>
     <script src="js/gsap.min.js"></script>
     <script src="js/simpleParallax.js"></script>
     <script src="js/ScrollTrigger.min.js"></script>

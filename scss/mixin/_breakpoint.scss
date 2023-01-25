@@ -1,13 +1,13 @@
 @mixin breakpoint($point) {
   @if $point==tablet {
-    @media (max-width: 1025px) {
+    @media (max-width: 1120px) {
       //タブレット用
       @content;
     }
   }
 
   @if $point==smartphone {
-    @media (max-width: 530px) {
+    @media (max-width: 710px) {
       //スマホ用
       @content;
     }
