@@ -1,7 +1,14 @@
 @use "../mixin/fontdata" as f;
 @use "../mixin/breakpoint" as break;
-.footer {
+footer {
   width: 100%;
-  height: 30px;
-  background-color: #816642;
+  height: 100%;
+  text-align: center;
+  background-color: #5e482c;
+  font-family: Georgia, serif;
+  color: white;
+}
+.Moroccanfoodslogo {
+  width: 100px;
+  margin-bottom: 20px;
 }
